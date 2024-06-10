@@ -42,7 +42,7 @@ void verificarPersona(char personas[][4][20]) {
             if (idx_conyugue!= -1) {
                 printf("La persona seleccionada esta casada con %s %s\n", personas[idx_conyugue][0], personas[idx_conyugue][1]);
             } else {
-                printf("La persona esta casada, pero no a su pareja\n");
+                printf("La persona esta casada, pero no se encontro a su pareja\n");
             }
         }
     } else {
